@@ -1,0 +1,103 @@
+html, body {
+  margin: 20px;
+  padding: 0;
+  color: #d3cfc6;
+  font-size: 16pt;
+  background-color: #000000;
+  text-align: left;
+  max-width: 1000px;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1{
+  font-size: 34pt;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2{
+  font-size: 20pt;
+  font-weight: 200;
+  font-family: "Tinos";
+  line-height: normal;
+}
+
+h3{
+  font-size: 20pt;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+h5{
+  font-size: 12pt;
+  font-weight: 600;
+  font-family: "Tinos";
+  margin-top : 10px;
+  margin-bottom: 0;
+}
+
+
+h6{
+  font-size: 12pt;
+  font-weight: 200;
+  font-family: "Tinos";
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+canvas {
+  display: block;
+}
+
+
+a {
+  color: #000000;
+  background-color: #ececec;
+  text-decoration: none;
+  transition: color ease 0.3s;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+  background-color: #e3e7f5;
+
+}
+
+a:visited {
+  text-decoration: none;
+
+}
+
+table{
+  border-collapse:collapse;
+
+}
+
+tr{
+  border-bottom: 1px solid #ececec;
+ 
+}
+
+th{
+  color: #000000;
+  font-weight: 600;   
+  background-color: #ececec;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+td{
+  vertical-align: middle;
+  border-right: 1px dashed #ececec;
+  border-left: 1px dashed #ececec;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+tr:hover {background-color: rgb(15, 212, 130);}
+
